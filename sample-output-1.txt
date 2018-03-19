@@ -1,0 +1,345 @@
+$ make jeopardy_main && ./jeopardy_main
+c++ -g -Wall -Wextra -std=c++11   -c -o jeopardy.o jeopardy.cpp
+c++  -g -Wall -Wextra -std=c++11 -o jeopardy_main jeopardy.o jeopardy_main.o
+Welcome to Jeopardy Dice!
+
+ -------------------------
+It is now human's turn
+roll: 4
+total so far: 4
+roll again? [yn]
+:: y
+roll: 2
+total so far: 6
+roll again? [yn]
+:: y
+roll: 3
+total so far: 9
+roll again? [yn]
+:: y
+roll: 6
+total so far: 15
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    15
+computer: 0
+
+ -------------------------
+It is now computer's turn
+roll: 1
+
+
+The point totals are now like this:
+human:    15
+computer: 1
+
+ -------------------------
+It is now human's turn
+roll: 3
+total so far: 3
+roll again? [yn]
+:: y
+roll: 4
+total so far: 7
+roll again? [yn]
+:: y
+roll: 5
+total so far: 12
+roll again? [yn]
+:: y
+roll: 5
+total so far: 17
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    32
+computer: 1
+
+ -------------------------
+It is now computer's turn
+roll: 5
+roll: 6
+ *computer holds on 11*
+
+
+The point totals are now like this:
+human:    32
+computer: 12
+
+ -------------------------
+It is now human's turn
+roll: 4
+total so far: 4
+roll again? [yn]
+:: y
+roll: 5
+total so far: 9
+roll again? [yn]
+:: y
+roll: 6
+total so far: 15
+roll again? [yn]
+:: y
+roll: 1
+bummer! you rolled a 1.
+
+
+The point totals are now like this:
+human:    33
+computer: 12
+
+ -------------------------
+It is now computer's turn
+roll: 3
+roll: 6
+roll: 3
+ *computer holds on 12*
+
+
+The point totals are now like this:
+human:    33
+computer: 24
+
+ -------------------------
+It is now human's turn
+roll: 2
+total so far: 2
+roll again? [yn]
+:: y
+roll: 2
+total so far: 4
+roll again? [yn]
+:: y
+roll: 4
+total so far: 8
+roll again? [yn]
+:: y
+roll: 6
+total so far: 14
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    47
+computer: 24
+
+ -------------------------
+It is now computer's turn
+roll: 5
+roll: 1
+
+
+The point totals are now like this:
+human:    47
+computer: 25
+
+ -------------------------
+It is now human's turn
+roll: 6
+total so far: 6
+roll again? [yn]
+:: y
+roll: 6
+total so far: 12
+roll again? [yn]
+:: y
+roll: 1
+bummer! you rolled a 1.
+
+
+The point totals are now like this:
+human:    48
+computer: 25
+
+ -------------------------
+It is now computer's turn
+roll: 6
+roll: 5
+ *computer holds on 11*
+
+
+The point totals are now like this:
+human:    48
+computer: 36
+
+ -------------------------
+It is now human's turn
+roll: 2
+total so far: 2
+roll again? [yn]
+:: y
+roll: 3
+total so far: 5
+roll again? [yn]
+:: y
+roll: 6
+total so far: 11
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    59
+computer: 36
+
+ -------------------------
+It is now computer's turn
+roll: 6
+roll: 1
+
+
+The point totals are now like this:
+human:    59
+computer: 37
+
+ -------------------------
+It is now human's turn
+roll: 1
+bummer! you rolled a 1.
+
+
+The point totals are now like this:
+human:    60
+computer: 37
+
+ -------------------------
+It is now computer's turn
+roll: 5
+roll: 5
+ *computer holds on 10*
+
+
+The point totals are now like this:
+human:    60
+computer: 47
+
+ -------------------------
+It is now human's turn
+roll: 2
+total so far: 2
+roll again? [yn]
+:: y
+roll: 6
+total so far: 8
+roll again? [yn]
+:: y
+roll: 2
+total so far: 10
+roll again? [yn]
+:: y
+roll: 4
+total so far: 14
+roll again? [yn]
+:: y
+roll: 4
+total so far: 18
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    78
+computer: 47
+
+ -------------------------
+It is now computer's turn
+roll: 1
+
+
+The point totals are now like this:
+human:    78
+computer: 48
+
+ -------------------------
+It is now human's turn
+roll: 5
+total so far: 5
+roll again? [yn]
+:: y
+roll: 5
+total so far: 10
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    88
+computer: 48
+
+ -------------------------
+It is now computer's turn
+roll: 4
+roll: 4
+roll: 3
+ *computer holds on 11*
+
+
+The point totals are now like this:
+human:    88
+computer: 59
+
+ -------------------------
+It is now human's turn
+roll: 3
+total so far: 3
+roll again? [yn]
+:: y
+roll: 4
+total so far: 7
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    95
+computer: 59
+
+ -------------------------
+It is now computer's turn
+roll: 5
+roll: 6
+ *computer holds on 11*
+
+
+The point totals are now like this:
+human:    95
+computer: 70
+
+ -------------------------
+It is now human's turn
+roll: 3
+total so far: 3
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    98
+computer: 70
+
+ -------------------------
+It is now computer's turn
+roll: 1
+
+
+The point totals are now like this:
+human:    98
+computer: 71
+
+ -------------------------
+It is now human's turn
+roll: 4
+total so far: 4
+roll again? [yn]
+:: n
+
+
+The point totals are now like this:
+human:    102
+computer: 71
