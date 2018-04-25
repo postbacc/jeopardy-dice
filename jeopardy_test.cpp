@@ -35,14 +35,15 @@ TEST_CASE("Jeopardy Dice: roll dice", "[roll]") {
 }
 
 TEST_CASE("Jeopardy Dice: take a turn", "[turn]") {
+  initialize_randomness();
   std::streambuf* orig = std::cin.rdbuf();
   for (int i=0; i < 100; i++) {
     std::istringstream input("yyyn");
-    std::cin.rdbuf(input.rdbuf());    
+    std::cin.rdbuf(input.rdbuf());
     int result = take_turn(true, 0);
     cout << "result from human turn: " << result << endl;
     REQUIRE(result >= 1);
-    REQUIRE(result <= 18); // three rolls can max out at 18.
+    REQUIRE(result <= 24); // initial roll plus three more maxes out at 24.
   }
   std::cin.rdbuf(orig);
   for (int i=0; i < 100; i++) {
